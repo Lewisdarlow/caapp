@@ -25,8 +25,7 @@ def you_got_me():
     #target = os.environ.get('TARGET', 'World')
     #return 'Hello {}!\n'.format(target)
     return 'Hello World'
-    link(https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-a-better-energy-deal/compare-domestic-energy-suppliers-customer-service1/)
-
+    os.link(https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-a-better-energy-deal/compare-domestic-energy-suppliers-customer-service1/)
 #if we receive a message POST from slack
 
 @app.route('/slack',methods=['POST'])
