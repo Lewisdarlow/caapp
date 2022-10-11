@@ -24,7 +24,7 @@ SHOW_DIALOG_str = str(SHOW_DIALOG_bool).lower()
 def you_got_me():
     #target = os.environ.get('TARGET', 'World')
     #return 'Hello {}!\n'.format(target)
-    return CLIENT_SIDE_URL 'https://pythonbasics.org/flask-tutorial-routes/'
+    return URL 'https://pythonbasics.org/flask-tutorial-routes/'
 
 #if we receive a message POST from slack
 
