@@ -25,8 +25,7 @@ def you_got_me():
     #target = os.environ.get('TARGET', 'World')
     #return 'Hello {}!\n'.format(target)
     return 'https://pythonbasics.org/flask-tutorial-routes/'
-    URL 'https://pythonbasics.org/flask-tutorial-routes/'
-    
+
 #if we receive a message POST from slack
 
 @app.route('/slack',methods=['POST'])
